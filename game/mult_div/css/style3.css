@@ -1,0 +1,245 @@
+.h {
+    margin-top: 1%;
+    margin-left: 5%;
+    text-align: center;
+    font-size: 80px;
+    font-weight: bold;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    color: red;
+}
+
+.title4 {
+    margin-left: 21%;
+    text-align: center;
+    float: left;
+    border-radius: 3px;
+    border: none;
+    text-align: center;
+    font-size: 80px;
+    font-weight: bold;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+.title5 {
+    margin-left: 60%;
+    text-align: center;
+    float: left;
+    border-radius: 3px;
+    border: none;
+    text-align: center;
+    font-size: 80px;
+    font-weight: bold;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+.grid-row3 {
+    position: relative;
+    width: 1200px;
+    margin: auto;
+}
+
+.grid-row3:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.grid-cell3 {
+    cursor: pointer;
+    margin: auto;
+    margin-left: 15%;
+    margin-top: 0%;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 340.25px;
+    height: 340.25px;
+    float: left;
+    border: none;
+}
+
+#pic1 {
+    background-position: center;
+    background-size: 240px, 240px;
+    background-image: url(anim/facile.png);
+}
+
+#pic2 {
+    background-size: 240px, 240px;
+    background-position: center;
+    background-image: url(anim/difficile.png);
+}
+
+
+/*#p0:hover {
+        background-position: center;
+        background-size: 240px, 240px;
+        background-image: url(anim/facile2.png);
+    }
+    
+    #p1:hover {
+        background-position: center;
+        background-size: 260px, 260px;
+        background-image: url(anim/difficile2.png);
+    }*/
+
+
+/*multiplication or division*/
+
+h1.md {
+    margin-top: -140px;
+    text-align: center;
+    color: #000000;
+    width: 100%;
+    font-size: 80px;
+    font-weight: bold;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    float: left;
+    animation-name: md;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes md {
+    0% {
+        color: greenyellow;
+    }
+    25% {
+        color: yellow;
+    }
+    50% {
+        color: darkred;
+    }
+    75% {
+        color: red;
+    }
+    100% {
+        color: darkgreen;
+    }
+}
+
+#h_scour {
+    font-weight: bold;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    float: right;
+    margin-right: 40%;
+    margin-top: -57px;
+    border: 5px solid red;
+    background-color: rgba(0, 0, 255, 0.2);
+    border-radius: 30px;
+    color: snow;
+    font-size: 60px;
+}
+
+#myProgress {
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.4);
+    margin-top: 40px;
+}
+
+#myBar {
+    width: 0%;
+    height: 20px;
+    background: linear-gradient(to right, red, green);
+    /*background-color: red;*/
+}
+
+
+/*#h_scour2 {
+    border-radius: 20px;
+    background-color: black;
+    float: right;
+    margin-right: -15%;
+    margin-top: -125%;
+    color: snow;
+    font-size: 50px;
+}
+
+#myProgress2 {
+    float: right;
+    margin-right: -60px;
+    width: 4%;
+    height: 695px;
+    background-color: white;
+    margin-top: -785px;
+}
+
+#myBar2 {
+    width: 100%;
+    height: 0%;
+    background-color: red;
+}*/
+
+.score_po {
+    display: none;
+    position: absolute;
+    width: 20%;
+    height: 200px;
+    margin-left: 3%;
+    margin-top: 10%;
+}
+
+.img_sc {
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    margin-left: 20px;
+}
+
+#img_scbl {
+    margin-left: 200px;
+    height: 250px;
+}
+
+#hscore {
+    position: absolute;
+    margin-left: 60px;
+    margin-top: 130px;
+    font-family: Blackadder ITC;
+    font-size: 120px;
+    color: gold;
+    transform: rotate(10deg);
+}
+
+#best {
+    position: absolute;
+    margin-left: 250px;
+    margin-top: 200px;
+    font-family: Blackadder ITC;
+    font-size: 100px;
+    color: cornflowerblue;
+    transform: rotate(10deg);
+}
+
+#himgscore {
+    position: absolute;
+    width: 30%;
+    margin-left: 50px;
+    margin-top: 30px;
+    font-family: Brush Script MT;
+    font-size: 100px;
+    color: cornflowerblue;
+    text-align: center;
+}
+
+#imgbest {
+    position: absolute;
+    margin-left: 230px;
+    margin-top: 30px;
+    font-family: Brush Script MT;
+    font-size: 100px;
+    color: gold;
+    text-align: center;
+}
+
+#hscore18 {
+    position: absolute;
+    opacity: 0;
+    width: 30%;
+    margin-left: 50px;
+    margin-top: 30px;
+    font-family: Brush Script MT;
+    font-size: 90px;
+    color: aqua;
+    text-align: center;
+}

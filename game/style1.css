@@ -1,0 +1,209 @@
+html,
+body {
+    background-image: url(pic/math.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-color: #0A160E;
+    /*background: #faf8ef;*/
+    color: #776e65;
+    font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
+    font-size: 18px;
+}
+
+body {
+    margin: 0 0;
+}
+
+h1.title {
+    margin-top: 0px;
+    position: absolute;
+    text-align: center;
+    color: #000000;
+    width: 100%;
+    font-size: 80px;
+    font-weight: bold;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    float: left;
+}
+
+.container {
+    width: 700px;
+    margin: auto;
+}
+
+.grid-container {
+    position: absolute;
+}
+
+.grid-row {
+    margin-bottom: 2px;
+}
+
+.grid-row:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.game-container {
+    margin-top: 15%;
+    position: relative;
+    padding: 5px;
+    background: black;
+    border-radius: 6px;
+    width: 700px;
+    height: 700px;
+    box-sizing: border-box;
+}
+
+.grid-cell {
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: 344px, 344px;
+    background-position: center;
+    font-size: 100px;
+    width: 344.25px;
+    height: 344.25px;
+    margin-right: 2px;
+    float: left;
+    border-radius: 3px;
+    background-color: white;
+    color: #FBFBFB;
+    border: none;
+}
+
+#p0 {
+    background-image: url(pic/plus.png);
+}
+
+#p1 {
+    background-image: url(pic/min.png);
+}
+
+#p2 {
+    background-image: url(pic/div.png);
+}
+
+#p3 {
+    background-image: url(pic/mult.png);
+}
+
+#p0:hover {
+    background-position: center;
+    background-size: 240px, 240px;
+    background-color: green;
+}
+
+#p1:hover {
+    background-position: center;
+    background-size: 240px, 240px;
+    background-color: blue;
+}
+
+#p2:hover {
+    background-position: center;
+    background-size: 240px, 240px;
+    background-color: red;
+}
+
+#p3:hover {
+    background-position: center;
+    background-size: 240px, 240px;
+    background-color: yellow;
+}
+
+#op {
+    float: right;
+    margin-top: 10%;
+    margin-right: 2%;
+    color: red;
+    font-size: 60px;
+    font-weight: bold;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    width: 500px;
+    border-widyh: 3px;
+    animation-name: title;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+
+/*
+#op1 {
+    margin-right: -2%;
+    margin-top: 5%;
+    color: red;
+    font-size: 60px;
+    float: right;
+    font-weight: bold;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    width: 500px;
+    height: 100%;
+    border-widyh: 3px;
+    animation-name: title;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+*/
+
+@-webkit-keyframes title {
+    0% {
+        color: darkred;
+        font-size: 80px;
+    }
+    25% {
+        color: black;
+    }
+    50% {
+        color: darkblue;
+        font-size: 70px;
+    }
+    75% {
+        color: black;
+    }
+    100% {
+        color: red;
+        font-size: 80px;
+    }
+}
+
+h2 {
+    position: fixed;
+    top: -1%;
+    text-align: center;
+    margin-left: 8%;
+}
+
+.user {
+    position: fixed;
+    top: 0;
+    color: red;
+    font-weight: bold;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+.logout {
+    position: fixed;
+    top: 0;
+    color: black;
+    cursor: pointer;
+    background-size: 100% 100%;
+    background-image: url("logout.png");
+    padding: 3% 3%;
+}
+
+.nam {
+    position: fixed;
+    margin-left: 7%;
+    top: 2%;
+    text-align: center;
+    color: green;
+}
+
+.email {
+    position: fixed;
+    margin-left: 7%;
+    top: 6%;
+    color: white;
+    text-align: center;
+}

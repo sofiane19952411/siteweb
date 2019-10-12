@@ -1,0 +1,523 @@
+
+
+
+ h1.title1 {margin-top:-70px;
+	  position: absolute;
+	   text-align: center;
+	  color:#4CAF50;
+	  width: 100%;
+  font-size: 95px;
+  font-weight: bold;
+  
+  float: left;
+  }
+html, body {
+  padding: 0px;
+  margin: 0px;
+ 
+  border: 0px;
+ }
+body {
+  width: 100%;
+
+  background-size: 100% 100%;
+	background-image: url('child1.jpg');
+	background-attachment:fixed;
+	background-color:#0A160E; 
+  color: #776e65;
+  font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
+  font-size: 18px; 
+  }
+  
+  
+  h1.title {margin-top:0px;
+	  position: absolute;
+	   text-align: center;
+	  color:red;
+	  width: 100%;
+  font-size: 80px;
+  font-weight: bold;
+ 
+  float: left;
+  }
+  
+.container {
+
+   width: 840px;
+  margin: auto; 
+  }
+.grid-container {
+  position: absolute;
+  }
+
+.grid-row {
+  margin-bottom: 2px; }
+  
+  .grid-row:after {
+    content: "";
+    display: block;
+    clear: both; }
+
+.grid-cell {
+   line-height: 130px;
+
+  width: 136.25px;
+  height: 136.25px;
+
+  float: left;
+  padding: 5px 5px;
+    font-size:70px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 6px;
+  box-shadow: 0 10px transparent;
+  margin: 1px;
+ margin-left: 2px;
+  opacity: 1;
+  
+   -webkit-transition-duration: 0.1s; /*  */
+    transition-duration: 0.1s;
+
+
+  }
+
+
+#p0{  -webkit-animation: p0 5s 1; /* Safari 4.0 - 8.0 */ animation: p0 5s 1;}
+#p1{  -webkit-animation: p1 5s 1; /* Safari 4.0 - 8.0 */ animation: p1 5s 1;}
+#p2{  -webkit-animation: p2 5s 1; /* Safari 4.0 - 8.0 */ animation: p2 5s 1;}
+#p3{  -webkit-animation: p3 5s 1; /* Safari 4.0 - 8.0 */ animation: p3 5s 1;}
+#p4{  -webkit-animation: p4 5s 1; /* Safari 4.0 - 8.0 */ animation: p4 5s 1;}
+#p5{  -webkit-animation: p5 7s 1; /* Safari 4.0 - 8.0 */ animation: p5 7s 1;}
+
+#p6{  -webkit-animation: p6 5s 1; /* Safari 4.0 - 8.0 */ animation: p6 5s 1;}
+#p7{  -webkit-animation: p7 5s 1; /* Safari 4.0 - 8.0 */ animation: p7 5s 1;}
+#p8{  -webkit-animation: p8 5s 1; /* Safari 4.0 - 8.0 */ animation: p8 5s 1;}
+#p9{  -webkit-animation: p9 5s 1; /* Safari 4.0 - 8.0 */ animation: p9 5s 1;}
+#p10{  -webkit-animation: p10 5s 1; /* Safari 4.0 - 8.0 */ animation: p10 5s 1;}
+
+#p11{  -webkit-animation: p11 5s 1; /* Safari 4.0 - 8.0 */ animation: p11 5s 1;}
+#p12{  -webkit-animation: p12 5s 1; /* Safari 4.0 - 8.0 */ animation: p12 5s 1;}
+#p13{  -webkit-animation: p13 5s 1; /* Safari 4.0 - 8.0 */ animation: p13 5s 1;}
+#p14{  -webkit-animation: p14 5s 1; /* Safari 4.0 - 8.0 */ animation: p14 5s 1;}
+#p15{  -webkit-animation: p15 5s 1; /* Safari 4.0 - 8.0 */ animation: p15 5s 1;}
+
+#p16{  -webkit-animation: p16 5s 1; /* Safari 4.0 - 8.0 */ animation: p16 5s 1;}
+#p17{  -webkit-animation: p17 5s 1; /* Safari 4.0 - 8.0 */ animation: p17 5s 1;}
+#p18{  -webkit-animation: p18 5s 1; /* Safari 4.0 - 8.0 */ animation: p18 5s 1;}
+#p19{  -webkit-animation: p19 5s 1; /* Safari 4.0 - 8.0 */ animation: p19 5s 1;}
+#p20{  -webkit-animation: p20 5s 1; /* Safari 4.0 - 8.0 */ animation: p20 5s 1;}
+
+#p21{  -webkit-animation: p21 5s 1; /* Safari 4.0 - 8.0 */ animation: p21 5s 1;}
+#p22{  -webkit-animation: p22 5s 1; /* Safari 4.0 - 8.0 */ animation: p22 5s 1;}
+#p23{  -webkit-animation: p23 5s 1; /* Safari 4.0 - 8.0 */ animation: p23 5s 1;}
+#p24{  -webkit-animation: p24 5s 1; /* Safari 4.0 - 8.0 */ animation: p24 5s 1;}
+#p25{  -webkit-animation: p25 5s 1; /* Safari 4.0 - 8.0 */ animation: p25 5s 1;}
+
+#p26{  -webkit-animation: p26 5s 1; /* Safari 4.0 - 8.0 */ animation: p26 5s 1;}
+#p27{  -webkit-animation: p27 5s 1; /* Safari 4.0 - 8.0 */ animation: p27 5s 1;}
+#p28{  -webkit-animation: p28 5s 1; /* Safari 4.0 - 8.0 */ animation: p28 5s 1;}
+#p29{  -webkit-animation: p29 5s 1; /* Safari 4.0 - 8.0 */ animation: p29 5s 1;}
+        
+  @-webkit-keyframes p0 {
+    from {margin-left: -20px;margin-top: -20px;}
+    to {margin-left: 5px;
+    margin-top: 10px;}
+    
+}
+/* p0  */
+@keyframes p0 {
+       from {transform: scale(0); background-color: green;}
+    to {  width: 140px; height: 140px;}
+}
+
+    
+@keyframes p1 {
+       from {transform: scale(0);background-color: green;}
+
+}
+@keyframes p2 {
+       from {transform: scale(0);background-color: green;}
+   
+}
+@keyframes p3 {
+       from { transform: scale(0);background-color: green;}
+
+}
+@keyframes p4 {
+       from {transform: scale(0);background-color: green;}
+    
+}
+@keyframes p5 {
+       from {transform: scale(0);background-color: green;}
+
+}
+@keyframes p6 {
+       from {transform: scale(0);background-color: green;}
+
+}
+@keyframes p7 {
+       from {transform: scale(0);background-color: green;}
+
+}
+@keyframes p8 {
+       from {transform: scale(0);background-color: green;}
+
+}
+@keyframes p9 {
+       from {transform: scale(0);background-color: green;}
+
+}
+@keyframes p10 {
+       from {transform: scale(0);background-color: green;}
+ 
+}
+
+@keyframes p11 {
+       from {transform: scale(0);background-color: green;}
+   
+}
+@keyframes p12 {
+       from {transform: scale(0);background-color: green;}
+
+}
+@keyframes p13 {
+       from {transform: scale(0);background-color: green;}
+   
+}
+@keyframes p14 {
+       from {transform: scale(0);background-color: green;}
+   
+}
+@keyframes p15 {
+       from {transform: scale(0);background-color: green;}
+  
+}
+@keyframes p16 {
+       from {transform: scale(0);background-color: green;}
+    
+}
+@keyframes p17 {
+       from {transform: scale(0);background-color: green;}
+   
+}
+@keyframes p18 {
+       from {transform: scale(0);background-color: green;}
+   
+}
+@keyframes p19 {
+       from {transform: scale(0);background-color: green;}
+   
+}
+@keyframes p20 {
+       from {transform: scale(0);background-color: green;}
+    
+}
+@keyframes p21 {
+       from {transform: scale(0);background-color: green;}
+    
+}
+@keyframes p22 {
+       from {transform: scale(0);background-color: green;}
+   
+}
+@keyframes p23 {
+       from {transform: scale(0);background-color: green;}
+    
+}
+@keyframes p24 {
+       from {transform: scale(0);background-color: green;}
+   
+}
+@keyframes p25 {
+       from {transform: scale(0);background-color: green;}
+   
+}
+@keyframes p26 {
+       from {transform: scale(0);background-color: green;}
+   
+}
+@keyframes p27 {
+       from {transform: scale(0);background-color: green;}
+   
+}
+@keyframes p28 {
+       from {transform: scale(0);background-color: green;}
+   
+}
+@keyframes p29 {
+       from {transform: scale(0);background-color: green;}
+    
+}
+
+/*=========================================================*/
+
+
+#myAnimation {
+  width: 50px;
+  height: 50px;
+  font-size: 28px;
+  position: absolute;
+  background-color: red;
+
+}
+
+button:hover {background-color: #3e8e41;color:black;
+
+         -webkit-transition-duration: 0.1s; /*  */
+    transition-duration: 0.1s;
+    margin-top: 10px;
+}
+
+
+button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+	
+	.game-container {
+  margin-top: 10%;
+  position: relative;
+  padding: 5px;
+ 
+  background: #bbada0; 
+
+  background-size: 100% 100%;
+  border-radius: 6px;
+  width: 850px;
+  height: 710px;
+  box-sizing: border-box; 
+animation: game_contaier 5s 1;
+    
+        box-shadow: 0 0 10px 10px #bbada0;;
+}
+  
+
+.restart {
+    position: relative;
+    background-image:url(../pic/back.png);
+    padding: 80px 190px;
+    line-height: 25px;
+    background-size: 100% 100%;
+    background-position: center;
+    margin-left: 25px;
+
+  } 
+  .restart:hover{
+  background-size:98% 99%;
+  background-position: center;	}
+
+
+
+  @-webkit-keyframes x {
+    0%   {color:red; font-size:80px; top:130px;}
+    25%  {color:black; font-size:115px; top:70px;}
+    50%  {color:red;  font-size:80px; }
+    75%  {color:red; font-size:80px; }
+  100% {color:yellow;font-size:80px; top:130px; }}
+
+
+#x {
+    animation-name:  x; 
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+font-family: Algerian;
+}
+
+
+    .game-message {
+     
+
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      background-color: rgba(77, 77, 77, 0.5);
+      z-index: 100;
+
+      text-align: center;
+    }
+ .game-message  p {
+        font-size: 60px;
+        font-weight: bold;
+        height: 10px;
+        line-height: 60px;
+  
+  
+      }
+
+      .lower {
+        display: block;
+      margin-top: -100px !important;
+        height: 500px;
+        color: rgba(55, 55, 55, 1);
+
+
+      }
+
+    .lower  a {
+      
+        margin-left: 9px;
+        margin-top: 20px;
+        font-size: 60px;
+        font-weight: bold;
+        height: 60px;
+        line-height: 60px;
+      
+
+      }
+
+
+
+
+	a.keep-playing-button {
+	  display: inline-block;
+	}
+      
+
+  
+    .game-message    p {
+      font-size: 30px !important;
+      height: 80px !important;
+      line-height: 30px !important;
+      margin-top: 90px !important;
+    }
+  
+
+
+
+.restart-button {
+
+  text-align: center;
+  float: right;
+    width: 25%;
+   height: 60px;
+    padding: 10px;
+    margin-right: 38%;
+    background-color: #3e8e41;
+    border-radius: 12px;
+    cursor: pointer;
+color: rgba(55, 55, 55, 1);
+     text-decoration: none;
+  }
+.restart-button:hover{
+background-color: #007700;
+letter-spacing: 1.5px;
+  }
+
+.img_close
+{
+  width: 50px;
+  height: 50px;
+  float: right;
+margin-top: 10px;
+margin-right: 10px;
+}
+.img_close:hover{
+  width: 70px;
+  height: 70px;
+  float: right;
+margin-top: 10px;
+margin-right: 10px;
+
+}
+
+#youwin
+{
+  transform: rotate(-15deg);
+  float: left;
+  margin-left: 100px;
+}
+
+#div_cent
+{
+  width: 100%;
+  height: 100%;
+  
+  margin: 0px;
+}
+.div_cent
+{
+  width: 100%;
+  height: 100%;
+  
+  margin: 0px;
+}
+#h_scour
+{
+  float: right;
+  margin-right: 770px;
+  margin-top: -45px;
+  color: #0A160E;
+  font-size: 50px;
+}
+#fn_scour
+{
+  width: 200px;
+  height: 140px;
+float: right;
+margin-right: 1270px;
+  border-style: solid;
+  border-width: 4px;
+  border-color: red;
+  border-radius: 120px;
+  padding: unset;
+  padding-top: 60px;
+  text-align: center;
+  font-size: 95px;
+color: red;
+ font-family: Edwardian Script ITC;
+
+
+
+}
+
+
+
+
+.des_pal
+{     display:none ;
+   position: absolute;
+    width: 200px;
+    height: 200px;
+ 
+    float: left;
+  background-size: 100% 100%;
+background-color: transparent;
+
+}
+#nul{
+    position: relative;
+ background-color: black;
+
+}
+
+#div_right
+{
+position: relative;
+float: right;
+width: 32%;
+background-size: 100% 100%;
+
+}
+#div_left
+{
+position: absolute;
+float: left;
+width: 32%;
+background-size: 100% 100%;
+}
+#div_plo{
+width: 100%;
+
+background-color: aqua;
+float: left;
+
+
+}
+

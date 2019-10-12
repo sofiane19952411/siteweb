@@ -1,0 +1,290 @@
+  .container2 {
+      position: relative;
+      width: 700px;
+      margin: auto;
+  }
+  
+  .grid-container2 {
+      position: absolute;
+  }
+  
+  .game-container2 {
+      margin-top: 20%;
+      position: relative;
+      padding: 5px;
+      background: black;
+      border-radius: 6px;
+      width: 700px;
+      height: 700px;
+      box-sizing: border-box;
+  }
+  
+  .grid-cell2 {
+      text-align: center;
+      width: 229px;
+      height: 229px;
+      margin-right: 2px;
+      margin-bottom: 2px;
+      float: left;
+      border-radius: 9px;
+      background-color: white;
+      font: 240px/220px "Comic Sans MS", cursive, sans-serif;
+      background-size: 229px 229px;
+      color: #000000;
+      border: none;
+  }
+  
+  .grid-cell2:hover {
+      font-size: 150px;
+  }
+  
+  #a1:hover {
+      background-color: #90EE90;
+  }
+  
+  #a2:hover {
+      background-color: #FFA07A;
+  }
+  
+  #a3:hover {
+      background-color: #E6E6FA;
+  }
+  
+  #a4:hover {
+      background-color: #ADD8E6;
+  }
+  
+  #a5:hover {
+      background-color: #FFB6C1;
+  }
+  
+  #a6:hover {
+      background-color: #D3D3D3;
+  }
+  
+  #a7:hover {
+      background-color: #F0E68C;
+  }
+  
+  #a8:hover {
+      background-color: #7FFFD4;
+  }
+  
+  #a9:hover {
+      background-color: #DDA0DD;
+  }
+  
+  h1.scour {
+      position: absolute;
+      margin-left: 10%;
+      margin-top: 12%;
+      color: #000000;
+      width: 100%;
+      font-size: 120px;
+      font-weight: bold;
+      font-family: "Comic Sans MS", cursive, sans-serif;
+      float: left;
+      animation-name: scour;
+      animation-duration: 2s;
+      animation-iteration-count: infinite;
+  }
+  
+  @-webkit-keyframes scour {
+      0% {
+          color: greenyellow;
+          font-size: 90px;
+          margin-left: 9%;
+      }
+      25% {
+          color: yellow;
+      }
+      50% {
+          color: darkred;
+          font-size: 150px;
+          margin-left: 4%;
+      }
+      75% {
+          color: red;
+      }
+      100% {
+          color: darkgreen;
+          font-size: 90px;
+          margin-left: 9%;
+      }
+  }
+  /*multiplication or division*/
+  
+  h1.title2 {
+      margin-top: -160px;
+      text-align: center;
+      color: #000000;
+      width: 100%;
+      font-size: 80px;
+      font-weight: bold;
+      font-family: "Comic Sans MS", cursive, sans-serif;
+      float: left;
+      animation-name: title;
+      animation-duration: 2s;
+      animation-iteration-count: infinite;
+  }
+  
+  @-webkit-keyframes title {
+      0% {
+          color: greenyellow;
+          font-size: 75px;
+      }
+      25% {
+          color: yellow;
+      }
+      50% {
+          color: darkred;
+          font-size: 120px;
+      }
+      75% {
+          color: red;
+      }
+      100% {
+          color: darkgreen;
+          font-size: 75px;
+      }
+  }
+  
+  h2 {
+      margin-left: 11%;
+      position: fixed;
+      float: right;
+      text-align: center;
+  }
+  
+  .user {
+      width: 20%;
+      position: fixed;
+      bottom: 0;
+      color: red;
+      font-weight: bold;
+      font-family: "Comic Sans MS", cursive, sans-serif;
+  }
+  /********************profile *******************/
+  
+  .profile {
+      width: 400px;
+      height: 200px;
+      position: fixed;
+  }
+  
+  .div_avatar {
+      width: 150px;
+      height: 150px;
+      float: left;
+      border-radius: 100%;
+      background-color: #000000;
+      margin-top: -25%;
+      margin-left: 15px;
+  }
+  
+  .avatar {
+      width: 100%;
+      height: 100%;
+      border-radius: 100%;
+  }
+  
+  .name_email {
+      width: 330px;
+      height: 110px;
+      float: left;
+      background-color: rgba(19, 35, 47, 0.8);
+      margin-top: +20px;
+      border-radius: 12px;
+      margin-left: 145px;
+      position: absolute;
+  }
+  
+  .name {
+      color: coral;
+      font-size: 40px;
+      margin-top: +5px;
+      font-weight: unset;
+      line-height: 60px;
+  }
+  
+  .email {
+      color: forestgreen;
+      font-size: 35px;
+      margin-top: -50px;
+  }
+  /*************** logout***************/
+  
+  .div_logout {
+      position: fixed;
+      bottom: 0;
+  }
+  
+  .logout {
+      width: 150px;
+      height: 150px;
+  }
+  
+  .logout:hover {
+      width: 130px;
+      height: 130px;
+  }
+  
+  .tooltip {
+      position: relative;
+      display: inline-block;
+      border-bottom: 1px dotted black;
+  }
+  
+  .tooltip .tooltiptext {
+      visibility: hidden;
+      width: 220px;
+      height: 45px;
+      background-color: #555;
+      color: #fff;
+      text-align: center;
+      border-radius: 6px;
+      padding: 5px 0;
+      position: absolute;
+      z-index: 4;
+      bottom: 125%;
+      left: 50%;
+      font-size: 40px;
+      margin-left: -60px;
+      opacity: 0;
+      transition: opacity 1s;
+      box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.2), 0 17px 50px 0 rgba(0, 0, 0, 0.5);
+  }
+  
+  .tooltip .tooltiptext::after {
+      content: "";
+      position: absolute;
+      top: 100%;
+      left: 50%;
+      margin-left: -5px;
+      border-width: 30px;
+      border-style: solid;
+      border-color: #555 transparent transparent transparent;
+  }
+  
+  .tooltip:hover .tooltiptext {
+      visibility: visible;
+      opacity: 1;
+      animation: note 500ms ease-in-out forwards;
+  }
+  
+  @keyframes note {
+      0% {
+          opacity: 0;
+          transform: scale(0.1) rotate(3deg) translateY(50deg) rotateX(180deg);
+      }
+      50% {
+          transform: rotate(-10deg) rotateX(-20deg);
+          opacity: 1;
+      }
+      70% {
+          transform: rotate(10deg) rotateY(90deg);
+      }
+      100% {
+          transform: scale(1);
+      }
+  }

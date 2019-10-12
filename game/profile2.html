@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="js/ballons_color.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/color.css"/> 
+   <link href="css/style_main.css" rel="stylesheet" type="text/css">
+    
+<head>
+    <body onload="start()">
+		  <div class="div_ballon" id="0">
+              <h1 id="nive">Choose a math operation !</h1>
+               <a  href="add_soust/addition/index_addition.html" class="grid-cell" onmouseover="function1()" onmouseout="f1(this)"  id="p0" ></a>
+          </div>
+
+          <div class="div_ballon" id="1">
+             <a href="add_soust/soustraction/index_soust.html"  class="grid-cell" onmouseover="function2()" onmouseout="f1(this)"  id="p1"></a>
+          </div>
+
+          <div class="div_ballon" id="2">
+		         <a href="mult_div/div.html" onmouseover="function3()" onmouseout="f1(this)"  class="grid-cell"id="p2"></a>
+          </div>
+
+          <div class="div_ballon" id="3">
+              <a href="mult_div/mult.html" onmouseover="function4()" onmouseout="f1(this)" class="grid-cell"id="p3"></a>
+          </div>
+        <div align="center">
+            <canvas id="canvas" onclick="reset()">
+			</canvas>
+        </div>
+        	<script src="js/js_main.js"></script>
+    </body>
+</html>

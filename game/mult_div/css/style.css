@@ -1,0 +1,249 @@
+body {
+    cursor: default;
+    background-size: 100% 100%;
+    background-image: url(child1.jpg);
+    background-attachment: fixed;
+    background-color: black;
+    margin: 0;
+    /*background: #faf8ef;*/
+    color: #776e65;
+    font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
+    font-size: 18px;
+}
+
+.grid-row {
+    margin-bottom: 2px;
+}
+
+.grid-row:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.grid-cell {
+    cursor: pointer;
+    text-align: center;
+    line-height: 130px;
+    font-size: 74px;
+    width: 136.25px;
+    height: 136.25px;
+    margin-right: 2px;
+    float: left;
+    color: #FBFBFB;
+    border-radius: 3px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    border: none;
+}
+
+.grid-cell:hover {
+    background-color: rgba(0, 0, 0, 0.9);
+    animation-name: grid;
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes grid {
+    0% {
+        color: rgba(0, 0, 0, 0.9);
+        font-size: 20px;
+    }
+    25% {}
+    50% {
+        font-size: 100px;
+        color: rgba(0, 0, 0, 0.9);
+    }
+    75% {}
+    100% {
+        font-size: 20px;
+    }
+}
+
+
+/* @-webkit-keyframes grid {
+    0%   {color:white; font-size:20px; }
+    25%  {color:floralwhite;  }
+    50%  {color:antiquewhite;  }
+    75%  {color:navajowhite;  }
+  100% {color:darkgrey;font-size:100px; }
+  }*/
+
+
+/* bravo or faux*/
+
+h1.title1 {
+    margin-top: -90px;
+    position: absolute;
+    text-align: center;
+    color: darkgreen;
+    width: 100%;
+    font-size: 95px;
+    font-weight: bold;
+    float: left;
+}
+
+h1.fd {
+    margin-top: 0;
+    color: white;
+    font-size: 95px;
+    font-weight: bold;
+    text-align: center;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+
+/* X(mult) or ÷(div) */
+
+h1.title {
+    margin-top: -19%;
+    text-align: center;
+    color: red;
+    width: 100%;
+    font-size: 80px;
+    font-weight: bold;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    float: left;
+    animation-name: title;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+.container {
+    margin-top: -20%;
+    position: relative;
+    width: 700px;
+    margin: auto;
+}
+
+.grid-container {
+    position: absolute;
+}
+
+.game-container {
+    margin-top: 5%;
+    position: relative;
+    padding: 5px;
+    background: #bbada0;
+    background-image: url("pic1.jpg");
+    border-radius: 6px;
+    width: 700px;
+    height: 700px;
+    box-sizing: border-box;
+}
+
+form {
+    position: relative;
+    margin-top: -110px;
+}
+
+.restart {
+    position: relative;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    background-size: 100% 100%;
+    background-image: url("back.png");
+    padding: 4% 7%;
+}
+
+@keyframes restar {
+    0% {
+        left: 0px;
+    }
+    50% {
+        left: 15px;
+    }
+    100% {
+        left: 0px;
+    }
+}
+
+.restart:hover {
+    animation-name: restar;
+    animation-duration: 0.75s;
+    animation-iteration-count: infinite;
+}
+
+.home {
+    cursor: pointer;
+    position: relative;
+    background-size: 100% 100%;
+    background-image: url("home.png");
+    padding: 4% 4%;
+    float: right;
+    margin-top: -90px;
+    margin-right: 10px;
+    animation-name: home;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes home {
+    0% {
+        top: 0px;
+    }
+    50% {
+        top: 15px
+    }
+    100% {
+        top: 0px;
+    }
+}
+
+.des_pal {
+    margin-left: 20%;
+    display: none;
+    position: absolute;
+    width: 200px;
+    height: 240px;
+    float: left;
+    background-size: 100% 100%;
+    background-color: transparent;
+}
+
+.bal {
+    margin-top: -900px;
+    margin-left: -200%;
+    display: none;
+    position: absolute;
+    width: 110px;
+    height: 100px;
+    float: left;
+    background-size: 100% 100%;
+    background-image: url(ballon/bee2.gif);
+    background-color: transparent;
+}
+
+#div_right {
+    margin-top: -3%;
+    position: relative;
+    float: right;
+    width: 32%;
+    background-size: 100% 100%;
+    background-color: red;
+}
+
+#div_plo {
+    width: 100%;
+    background-color: aqua;
+    float: left;
+}
+
+.pic1 {
+    filter: grayscale(100%);
+}
+
+.pic1:hover {
+    filter: grayscale(0%);
+}
+
+#t1 {
+    color: green;
+    opacity: 0;
+}
+
+#t2 {
+    color: red;
+    margin-top: -160px;
+    opacity: 0;
+}
